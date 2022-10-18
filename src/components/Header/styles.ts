@@ -3,12 +3,6 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   background: ${props => props.theme['gray-900']};
   padding: 2.5rem 0 7.5rem;
-  max-height: 8rem;
-
-  @media (max-width: 700px) {
-    padding: 1rem 0 1rem;
-    max-height: 18rem;
-  }
 `
 
 export const HeaderContent = styled.header`
@@ -20,17 +14,6 @@ export const HeaderContent = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  @media (max-width: 700px) {
-    display: flex;
-    flex-direction: column;
-    border: solid 1px white;
-    justify-content: space-around; 
-    gap: 1rem;
-    padding: 0.5rem 0.35rem;
-    text-align: start;
-    align-items: flex-start;
-  }  
 `
 export const LogoImage = styled.img`
   height: 3rem;
@@ -56,9 +39,5 @@ export const NewTransactionsButton = styled.button`
   &:hover {
     background: ${props => props.theme['blue-700']};
     transition: backgroud-color 0.2s;
-  }
-
-  @media (max-width: 700px) {
-    width: 100%;
   }
   `
