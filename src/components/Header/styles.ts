@@ -15,15 +15,17 @@ export const HeaderContent = styled.header`
   justify-content: space-between;
   align-items: center;
 `
-export const LogoImage = styled.img`
-  height: 3rem;
-  padding: 0 0.3rem 0 1rem;
-`
 
 export const LogoContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  span {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0.25rem;
+  }
 `
 
 export const NewTransactionsButton = styled.button`
