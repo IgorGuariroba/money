@@ -1,8 +1,14 @@
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "./styles/global";
+import { defaultTheme } from "./styles/themes/default";
 
 export function App() {
 
   return (
-    <h1>Oie</h1>
+    <ThemeProvider theme={defaultTheme} >
+      <GlobalStyle />
+      <h1>OIE</h1>
+    </ThemeProvider>
   )
 }
 
