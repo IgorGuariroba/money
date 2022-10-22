@@ -1,22 +1,28 @@
 {
-   "transactions": [
+  "transactions": [
     {
-    "id": 1,
-    "description": "Desenvolvimento de site",
-    "type": "income",
-    "category": "Venda",
-    "price": "14000",
-    "created_at": "2022-10-21T00:26:36.102Z"
-  },
-  {
-    "id": 2,
-    "description": "Hamburger",
-    "type": "outcome",
-    "category": "Alimentação",
-    "price": "50",
-    "created_at": "2022-10-21T00:26:36.102Z"
-  }
-]
- 
-
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "created_at": "2022-10-21T00:26:36.102Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "created_at": "2022-10-21T00:43:36.102Z"
+    },
+    {
+      "id": 3,
+      "description": "Ventilador",
+      "type": "outcome",
+      "category": "Eletronico",
+      "price": 300,
+      "created_at": "2022-10-21T00:57:36.102Z"
+    }
+  ]
 }
