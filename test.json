@@ -23,6 +23,22 @@
       "category": "Eletronico",
       "price": 300,
       "created_at": "2022-10-21T00:57:36.102Z"
+    },
+    {
+      "description": "maça",
+      "type": "outcome",
+      "category": "alimento",
+      "price": 10,
+      "created_at": "2022-10-23T01:05:55.629Z",
+      "id": 4
+    },
+    {
+      "description": "Blackboard",
+      "type": "income",
+      "category": "função",
+      "price": 7700,
+      "created_at": "2022-10-23T01:38:07.070Z",
+      "id": 5
     }
   ]
 }
